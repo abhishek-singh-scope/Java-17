@@ -1,0 +1,9 @@
+Modularity adds a higher level of aggregation above packages.
+The key new language element is the module—a uniquely named, reusable group of related packages, as well as resources (such as images and XML files) and a module descriptor specifying
+
+1.the module’s name
+2.the module’s dependencies (that is, other modules this module depends on)
+3.the packages it explicitly makes available to other modules (all other packages in the module are implicitly unavailable to other modules)
+4.the services it offers
+5.the services it consumes
+6.to what other modules it allows reflection
